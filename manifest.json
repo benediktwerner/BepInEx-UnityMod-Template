@@ -1,0 +1,7 @@
+{
+  "name": "{{MOD_NAME}}",
+  "description": "{{DESCRIPTION}}",
+  "version_number": "1.0.0",
+  {%IF THUNDERSTORE_DEPENDENCY "dependencies": ["{{THUNDERSTORE_DEPENDENCY}}"],%}
+  "website_url": "https://github.com/{{GITHUB_USERNAME}}/{{GAME_NAME}}-{{MOD_NAME}}-Mod"
+}
